@@ -8,11 +8,11 @@
 
     {% include header.html %}
 
-
+    {% if page.url == "/" %}
     {% include hero.html %}
-    
+    {% endif %}
     <section id="about"> 
-       {% if page.url == "/" %}
+    {% if page.url == "/" %}
     {% include about.html %}
     {% endif %}
     </section>
