@@ -2,7 +2,7 @@
 layout: post
 title:  "Interview - Matt Cardillo of FINRA Technology"
 date:   2014-09-09 05:55:49
-categories: interview technology
+categories: jekyll update
 img: images/bio_pic.jpg
 ---
 
