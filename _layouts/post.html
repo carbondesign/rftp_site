@@ -13,9 +13,8 @@
 
   
     <section id="main"> 
-    {% if page.url == "/technology" %}
-    {{post.title}}
-    this is a post title
+    {% if page.url == "/" %}
+    {% include about.html %}
     {% endif %}
     </section>
 
