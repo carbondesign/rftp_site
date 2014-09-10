@@ -16,31 +16,34 @@
     {% include about.html %}
     {% endif %}
     </section>
+    <section class="portfolio-carousel">
+        {% if page.url == "/" %}
+        {% include tallent.html %}
+        {% endif %}
+    </section>
 
     <section class="bg-gray">
         {% if page.url == "/" %}
         {% include media.html %}
         {% endif %}
     </section>
-
     <aside class="cta-quote" style="background-image: url('images/bg-aside.jpg');">
         {% if page.url == "/" %}
         {% include quote.html %}
         {% endif %}
     </aside>
-
     <section id="process" class="services">
         {% if page.url == "/" %}
         {% include events.html%}
         {% endif %}
     </section>
 
+    
 
-    <section class="portfolio-carousel">
-        {% if page.url == "/" %}
-        {% include tallent.html %}
-        {% endif %}
-    </section>
+    
+
+
+    
 
 
     <section id="contact">
