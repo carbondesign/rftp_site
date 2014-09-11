@@ -81,7 +81,7 @@ $('.gallery-link').magnificPopup({
 $("header.video").wallpaper({
     source: {
        
-        mp4: "http://localhost:4000/video/digital_finance.mp4"
+        mp4: "http://carbondesign.github.io/rftp_site/video/digital_finance.mp4"
     }
 });
 
