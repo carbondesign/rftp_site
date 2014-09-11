@@ -367,10 +367,10 @@ font-size: 60px;
 }
 .technology .interview_background{
   max-height: 100%;
-position: absolute;
+    position: absolute;
 max-width: 100%;
 top: 0px;
-height: 100%;
+width: 100%;
   
 }
 .technology .scroll-down.page-scroll,
