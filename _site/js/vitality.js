@@ -80,10 +80,13 @@ $('.gallery-link').magnificPopup({
 // Formstone Wallpaper - Video Background Settings
 $("header.video").wallpaper({
     source: {
-        poster: "assets/img/bg-mobile-fallback.jpg",
-        mp4: "video/digital_finance.mp4"
+       
+        mp4: "http://localhost:4000/video/digital_finance.mp4"
     }
 });
+
+
+
 
 // Fix for Bootstrap Modal Shifting Page Contents
 $(window).on("load resize", function(e) {

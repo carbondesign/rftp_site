@@ -17,7 +17,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
-h1, h2{font-size: 170%; }
+h1, h2{font-size: 240%; }
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
@@ -325,6 +325,84 @@ a:visited { color: #205caa; }
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
+.technology .intro-content {
+  width: 80%;
+  font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
+  top: 210px;
+position: absolute;
+top: 20%;
+left: 50%;
+width: 50%;
+margin: auto;
+text-align: center;
+color: #fff;
+-webkit-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+z-index: 3000;
+}
+
+
+.technology .brand-name {
+font-weight: 300;
+font-size: 60px;
+}
+.technology .brand-name-subtext{
+  font-size: 24px
+}
+.technology .tech_card{
+  width: 80%;
+  margin: 0 auto;
+}
+.technology .owl-item{
+  background-color: #111
+}
+.technology .interview_background{
+  max-height: 100%;
+position: absolute;
+max-width: 100%;
+top: 0px;
+height: 100%;
+  
+}
+.technology .scroll-down.page-scroll,
+.technology .wallpaper-media.wallpaper-video{
+  display:none;
+}
+.technology .tech_card p{
+  font-size:24px;
+  padding-left: 350px;
+}
+.technology .owl-carousel h2{padding-left: 350px;}
+.technology .navbar.navbar-inverse.navbar-fixed-top.navbar-expanded{
+  background-color: rgba(0, 0, 0, .8);
+
+}
+.technology .about-carousel h3{
+  font-size: 18px
+}
+.technology .about-carousel p{
+  font-size: 14px;
+
+}
+.technology .about-carousel .caption {
+  background-color: #111;
+  opacity: .8;
+
+}
+.technology .cardimage {
+  position: absolute;
+  background-color: #fff;
+  width: 300px;
+  height: 100%;
+  top: 0px;
+  overflow: hidden;
+}
+.technology .cardimage img{
+  height: 100%;
+
+}
+
 
 /* media queries */
 /* ----------------------------------------------------------*/
@@ -409,3 +487,4 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+

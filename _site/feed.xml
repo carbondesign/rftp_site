@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
+    <title>FINRA Tech</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 09 Sep 2014 07:12:09 -0400</pubDate>
-    <lastBuildDate>Tue, 09 Sep 2014 07:12:09 -0400</lastBuildDate>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 11 Sep 2014 06:25:09 -0400</pubDate>
+    <lastBuildDate>Thu, 11 Sep 2014 06:25:09 -0400</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+        <title>Interview - Matt Cardillo of FINRA Technology</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000//images/bio_pic.jpg&quot; /&gt;/&amp;gt;&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; First of all, can you describe what FastOLA is?
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; FastOLA is a custom application developed by FINRA’s Technology group that our market analysts use to query large amounts of market trade data that we get from NYSE Euronext, NASDAQ, and DirectEdge exchanges to name a few. 
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; What might a market analyst do with FastOLA?
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; A market analyst might use FastOLA to verify compliance with timing requirements, research a customer complaint, or search for patterns of fraudulent behavior. 
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; What does the name FastOLA mean?
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; OLA stands for Order Lifecycle Assembly.  We assemble all of the steps in an order —e.g., a stock trade— and provide this data and the ability to analyze it to our market analysts. 
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; And what about the Fast part?
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; Fast means just that—the faster our market analysts can analyze this data, the better they can meet our mission to protect investors and maintain the integrity of US markets.
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; How do you make it fast?
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; Certainly intelligent application design is critical, but leveraging cloud computing technologies like Elastic MapReduce (EMR) and open source frameworks like HBase and Hadoop are vital to achieving the results we are seeing now.
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; Tell me about the results
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; Just to give you an example, one query that took over 5 hours to run on our legacy platform runs in 11 seconds on the new platform. 
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; Wow, what provides the horsepower for such improvement?
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; We partnered with Cloudera to engineer a 60-node cluster of HS1 instances in Amazon’s AWS cloud running Hadoop, HBase, and EMR. We are able to spool up nodes like a thermostat on a wall.
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; 60 nodes is a lot; how much data do you have out there?
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; Right now, we have about 3 Petabytes of data in FastOLA, which helps put some context around the 11-second query return I mentioned earlier.
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; What’s next for FastOLA?
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; We’ll continue to replace components of the legacy platform with the new cloud-based platform.  We are working with Cloudera to develop new capabilities in their OS to support our requirements.  In addition, we’re developing a host of cloud management tools that we intend to release to the community under open source.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2014/09/09/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/09/09/welcome-to-jekyll/</guid>
+        <link>http://localhost:4000//jekyll/update/2014/09/09/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2014/09/09/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
