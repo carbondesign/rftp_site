@@ -1,25 +1,8 @@
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
 
 
 
-<link rel="stylesheet" type="text/css" href="http://graphics8.nytimes.com/css/0.1/screen/build/interactive/us/politics/styles.css">
-<link rel="stylesheet" type="text/css" media="print" href="http://graphics8.nytimes.com/css/0.1/print/styles.css">
-<!--[if IE]>
-        <style type="text/css">
-            @import url(http://graphics8.nytimes.com/css/0.1/screen/common/ie.css);
-        </style>
-    <![endif]-->
-<!--[if IE 6]>
-        <style type="text/css">
-            @import url(http://graphics8.nytimes.com/css/0.1/screen/common/ie6.css);
-        </style>
-    <![endif]-->
 
-</head>
-<body id="interactiveABC">
 
 
 <div id="interactiveShell">
@@ -70,6 +53,7 @@
   position: relative;
   width: 100%;
   height: 100%;
+top:90px;
 }
 #nytg-error {
   
@@ -80,7 +64,7 @@
   font-size: 16px;
   line-height: 20px;
   margin: 10px;
-  border: solid 1px #CCC;
+ 
   background: #ffd;
   padding: 10px;
   
@@ -116,12 +100,12 @@
   font-size: 12px;
   line-height: 16px;
   padding: 10px;
-  border-radius: 3px;
+
   background: rgba(255,255,255,0.9);
   color: #000;
   box-shadow: 0 1px 5px rgba(0,0,0,0.4);
   -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);  
-  border:1px solid rgba(200,200,200,0.85);
+
   text-align:center;
 }
 
@@ -205,7 +189,6 @@
 
 /* Navigation */
 .nytg-navBar {
-  border-top: solid 1px #DDD;
   padding: 15px 0 0;
   margin: 0 10px;
   z-index: 100;
@@ -251,7 +234,7 @@
   cursor: pointer;
   background-image: none;
   background-color: none;
-  border-bottom: solid 1px #f0f0f0;
+  
   padding: 3px;
   margin: 0 0 1px 0;
 }
@@ -267,7 +250,7 @@ span.noWrap.feedback {
 }
 
 #interactiveFooter {
-    border-top:1px solid #DDDDDD;
+  
     
     margin-top:10px;
     padding-top:12px !important;
@@ -349,7 +332,7 @@ div.storyHeader h1 {
   top: 100px;
   left: 540px;
   width: 60px;
-  border-top: dashed 1px rgba(0,0,0,0.2);
+  
 }
 .nytg-increasesLabel span {
   position: absolute;
@@ -362,7 +345,7 @@ div.storyHeader h1 {
   top: 470px;
   left: 560px;
   width: 60px;
-  border-top: dashed 1px rgba(0,0,0,0.2);
+  
 }
 .nytg-decreasesLabel span {
   position: absolute;
@@ -412,7 +395,7 @@ div.storyHeader h1 {
 
 .nytg-circleKeyLabel {
   position: absolute;
-  border-top: solid 1px #DDD;
+ 
   width: 40px;
 }
 
@@ -458,7 +441,7 @@ div.storyHeader h1 {
 
 .nytg-colorSwatches li {
   width: 16%;
-  border-right: solid white 1px;
+ 
 }
 
 .nytg-colorTicks {
@@ -716,9 +699,8 @@ div.storyHeader h1 {
 		<div id="nytg-chartFrame">
 		<![endif]-->  
 <![if !IE]><div id="nytg-chartFrame"><![endif]>
-<h1>Transaction Vollume for 09.10.2014</h1>
-<div style="width: 100%; overflow: hidden; position: relative; height: 81px;"> 
-  <iframe style="width: 908px; overflow: hidden; position: absolute; top: -677px; height: 1000px; left: -86px;" src="http://appitize.io:8080/"></iframe></div> <div id="nytg-chart">
+<h1>  </h1>
+<div style="width: 100%; overflow: hidden; position: absolute; height: 81px; left: 0px; background-color: #000;top: 118PX; padding: 0px 20%;"> <iframe style="width: 908px; overflow: hidden; position: absolute; top: -677px; height: 1000px; left: 270px;" src="http://appitize.io:8080/"></iframe></div> <div id="nytg-chart">
 <div class="nytg-navBar">
 <div id="nytg-search" style="display:none;"></div>
 <ul class="nytg-navigation clearfix">
@@ -945,8 +927,8 @@ nytg.Chart = function(){
                         } else if ( c <= 0.25){ return 2;
                         } else { return 3; }
                       },
-    fillColor       : d3.scale.ordinal().domain([-3,-2,-1,0,1,2,3]).range(["#00ff00", "#ee9586","#e4b7b2","#AAA","#beccae", "#9caf84", "#7aa25c"]),
-    strokeColor     : d3.scale.ordinal().domain([-3,-2,-1,0,1,2,3]).range(["#c72d0a", "#e67761","#d9a097","#999","#a7bb8f", "#7e965d", "#5a8731"]),
+    fillColor       : d3.scale.ordinal().domain([-3,-2,-1,0,1,2,3]).range(["#0472c6", "#0472c6","#e84505","#78af19","#78af19", "#fe7a05", "#0472c6"]),
+    strokeColor     : d3.scale.ordinal().domain([-3,-2,-1,0,1,2,3]).range(["#333", "#333","#333","#333","#333", "#333", "#333"]),
     getFillColor    : null,
     getStrokeColor  : null,
     pFormat         : d3.format("+.1%"),
@@ -1772,12 +1754,5 @@ if (!!document.createElementNS && !!document.createElementNS('http://www.w3.org/
 
 
 
-
-		
-   
-        
-   
-</body>
-</html>
 
 

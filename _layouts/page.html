@@ -6,11 +6,12 @@
     <body id="page-top" class="{{page.category}}">
 
     {% include header.html %} 
+    {% if page.url == "/technology/article/" %}
     <header class="video"> 
     <div class="overlay"></div>
  	<img class="interview_background" src="{{site.url}}/images/stock-photo-23055516-woman-s-hands-over-writing-a-graph-view-from-the-side.jpg"/></header> 
 
- 	{% if page.url == "/technology/article/" %}
+ 	
     <div class="intro-content">
            
             <div class="brand-name">{{page.title}}</div>
@@ -19,6 +20,11 @@
         </div>
 
         {% endif %}
+     {% if page.url == "/technology/" %}
+     	<div id="dashboard">
+     	{% include bubblechart/NYT_2013Budget.html %}
+     	</div>
+     {% endif %}
      {{ content }}
     
          
