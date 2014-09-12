@@ -9,7 +9,7 @@ category: technology
 
 
 <section class="tech_card">     
-<div class="cardimage"><img src="{{site.url}}/images/stock-photo-24621112-bull-market-financial-data.jpg"/></div>
+<div class="cardimage"><img src="{{site.url}}/images/stock-photo-29046900-man-press-search-button-on-touch-screen-in-air.jpg"/></div>
 <p>FastOLA is a custom application developed by FINRA’s Technology group that our market analysts use to query large amounts of market trade data that we get from NYSE Euronext, NASDAQ, and DirectEdge exchanges to name a few. 
 </p>
 </section>
@@ -66,69 +66,45 @@ category: technology
 </section>
 </section>
 	<script type="text/javascript">
-		var getRandomData = function(size, addition) {
-        if (!addition) addition = 5;
-        var data = [];
-        var len = Math.random() * size + addition;
-        var i;
-        for (i = 0; i < len; i++) {
-            data.push(Math.random() * 50);
-        }
-        return data;
-    };
+		
 
-    $('#container').highcharts({
-        series: [{
-            data: getRandomData(100)
-        }],
-        plotOptions: {
-            line: {
-                marker: {
-                    enabled: false
-                }
-            }
-        }
-    });
+    	var data = '[{"name":"WIAT","data":"1, 180"}, {"name":"WIAT","data":"2, 300"}, {"name":"WIAT","data":"3,2769"}, {"name":"WIAT","data":"4,6920"}, {"name":"WIAT","data":"5,200000"}, {"name":"OLA Viewer","data":"1,2"}, {"name":"OLA Viewer","data":"2,2"}, {"name":"OLA Viewer","data":"3,5"}, {"name":"OLA Viewer","data":"4,11"}, {"name":"OLA Viewer","data":"5,28"}]'; var options = {
+    	        chart: {
+    	            renderTo: 'container'
+    	        },
+    	        xAxis: {
+			        type: "category",
+			        categories: ['0','23', '203', '1377', '48096', '212300']
+			    },
+			    title: {text:"Number of Records Per Second"},
+    	        
+    	        series: []
+    	    };
 
-    $('#button1').click(function() {
-        var chart = $('#container').highcharts();
+    	    data = JSON.parse(data);
+    	    var names = [];
+    	    $.each(data, function (i, ligne) {
+    	        var ind = names.indexOf(ligne.name),
+    	            splited = ligne.data.split(','),
+    	            x = parseFloat(splited[0]),
+    	            y = parseFloat(splited[1]);
+    	        if (ind == -1) {
+    	            ind = names.push(ligne.name) - 1;
+    	            options.series.push({
+    	                data: [],
+    	                name: ligne.name
+    	            });
+    	        } 
+    	        if(!isNaN(x) && !isNaN(y)){
+    	            options.series[ind].data.push([x,y]);    
+    	        }
+    	    });
+    	    
+    	    console.log(options);
 
-        chart.series[0].setData(getRandomData(100), false); // Sometimes no animation happens
+    	    var chart = new Highcharts.Chart(options);
 
-        chart.redraw();
-    });
 
-    $('#button2').click(function() {
-        var chart = $('#container').highcharts();
 
-        chart.series[0].remove();
-        chart.addSeries({data: getRandomData(100)}); // Animation happens, but not the kind     I want
-
-        chart.redraw();
-    });
-
-    var method3 = function(chart, size, addition) {
-        var series = chart.series[0];
-        var data = getRandomData(size, addition);
-        var seriesLen = series.data.length;
-        $.each(data, function(index, newPoint) {
-            if (index < seriesLen) {
-                series.data[index].update(newPoint, false);
-            } else {
-                series.addPoint([index, newPoint], false);
-            }
-        });
-        while (seriesLen > data.length) {
-            series.data[seriesLen-1].remove(false);
-            seriesLen--;
-        }
-
-        chart.redraw();
-    };
-    
-    $('#button3').click(function() { // Works as I want it
-        var chart = $('#container').highcharts();
-        method3(chart, 100);
-        chart.redraw();
-    });
+     
 		</script>
