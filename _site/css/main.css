@@ -1,6 +1,7 @@
 /* Base */
 /* ----------------------------------------------------------*/
-
+#page-top .navbar-fixed-top{z-index: 100000}
+#page-top header.video.wallpaper{min-height: 1050px}
 * {
   margin: 0;
   padding: 0;
@@ -17,8 +18,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
-h1, h2{font-size: 240%; }
-
+h1{font-size: 240%; }
+h2{font-size: 180%; }
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
@@ -330,7 +331,7 @@ a:visited { color: #205caa; }
   font-family: Raleway, 'Helvetica Neue', Helvetica, Arial;
   top: 210px;
 position: absolute;
-top: 20%;
+top: 200px;
 left: 50%;
 width: 50%;
 margin: auto;
@@ -353,10 +354,10 @@ text-transform: uppercase;
 
 .technology .brand-name {
 font-weight: 300;
-font-size: 60px;
+font-size: 48px;
 }
 .technology .brand-name-subtext{
-  font-size: 24px
+  font-size: 22px
 }
 .technology .tech_card{
   width: 80%;
@@ -367,10 +368,11 @@ font-size: 60px;
 }
 .technology .interview_background{
   max-height: 100%;
-    position: absolute;
-max-width: 100%;
-top: 0px;
-width: 100%;
+  position: absolute;
+  max-width: 100%;
+  top: 0px;
+  height: 100%;
+  width: auto;
   
 }
 .technology video .wallpaper{
@@ -381,7 +383,7 @@ width: 100%;
   display:none;
 }
 .technology .tech_card p{
-  font-size:24px;
+  font-size:20px;
   padding-left: 350px;
 }
 .technology .owl-carousel h2{padding-left: 350px;}
