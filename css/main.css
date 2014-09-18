@@ -372,8 +372,8 @@ text-transform: uppercase;
  video .wallpaper{
   min-height:1000px;
 }
- .scroll-down.page-scroll,
- .wallpaper-media.wallpaper-video{
+ .technology .scroll-down.page-scroll,
+  .technology .wallpaper-media.wallpaper-video{
   display:none;
 }
  .tech_card p{
