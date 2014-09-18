@@ -1,0 +1,104 @@
+
+<section class="portfolio-carousel" style="top: 310px; position: absolute; z-index: 2000; ">
+
+
+<section class="tech_card">     
+<div class="cardimage"><img src="{{site.url}}/images/stock-photo-29046900-man-press-search-button-on-touch-screen-in-air.jpg" style="width:100%"/></div>
+<p>FastOLA is a custom application developed by FINRA’s Technology group that our market analysts use to query large amounts of market trade data that we get from NYSE Euronext, NASDAQ, and DirectEdge exchanges to name a few. 
+</p>
+</section>
+<section class="tech_card">  
+    <div class="cardimage"><img src="{{site.url}}/images/stock-photo-17612067-high-speed.jpg"/></div>
+<h2>What does FastOLA stand for?
+</h2>
+<p>OLA stands for Order Lifecycle Assembly.  We assemble all of the steps in an order —e.g., a stock trade— and provide this data and the ability to analyze it to our market analysts. 
+</p>
+
+<p>Fast means just that—the faster our market analysts can analyze this data, the better they can meet our mission to protect investors and maintain the integrity of US markets.
+</p>
+</section>
+<section class="tech_card"><div class="cardimage"><img src="{{site.url}}/images/64517.jpg"/></div>
+<h2>What would a market analyst do with FastOLA?</h2>
+
+<p>A market analyst might use FastOLA to verify compliance with timing requirements, research a customer complaint, or search for patterns of fraudulent behavior. 
+</p>
+</section>
+
+<section class="tech_card"> 
+    <div class="cardimage">
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+    
+        <div id="container" style="height: 400px"></div>
+    </div>
+<h2>How do you make it fast?</h2>
+</p>
+<p>Certainly intelligent application design is critical, but leveraging cloud computing technologies like Elastic MapReduce (EMR) and open source frameworks like HBase and Hadoop are vital to achieving the results we are seeing now.
+</p>
+</section>
+<section class="tech_card">
+<div class="cardimage"><img src="{{site.url}}/images/nest.jpg"/></div> 
+<h2>What are the result? </h2>
+
+<p>Just to give you an example, one query that took over 5 hours to run on our legacy platform runs in 11 seconds on the new platform. 
+</p>
+
+<p> We partnered with Cloudera to engineer a 60-node cluster of HS1 instances in Amazon’s AWS cloud running Hadoop, HBase, and EMR. We are able to spool up nodes like a thermostat on a wall.
+</p>
+</section>
+<section class="tech_card"> 
+    <div class="cardimage"><img src="{{site.url}}/images/stock-photo-34346152-hi-tech-data-center.jpg"/></div>
+<h2>How much data is out there?
+</h2>
+<p>Right now, we have about 3 Petabytes of data in FastOLA, which helps put some context around the 11-second query return I mentioned earlier.
+</p>
+</section>
+<section class="tech_card"> 
+    <div class="cardimage"><img src="{{site.url}}/images/stock-photo-38083056-highway-signpost-open-source.jpg"/></div>
+<h2>What’s next for FastOLA?
+</h2>
+<p>We’ll continue to replace components of the legacy platform with the new cloud-based platform.  We are working with Cloudera to develop new capabilities in their OS to support our requirements.  In addition, we’re developing a host of cloud management tools that we intend to release to the community under open source.</p>
+</section>
+</section>
+    <script type="text/javascript">
+        
+
+        var data = '[{"name":"WIAT","data":"1, 180"}, {"name":"WIAT","data":"2, 300"}, {"name":"WIAT","data":"3,2769"}, {"name":"WIAT","data":"4,6920"}, {"name":"WIAT","data":"5,200000"}, {"name":"OLA Viewer","data":"1,2"}, {"name":"OLA Viewer","data":"2,2"}, {"name":"OLA Viewer","data":"3,5"}, {"name":"OLA Viewer","data":"4,11"}, {"name":"OLA Viewer","data":"5,28"}]'; var options = {
+                chart: {
+                    renderTo: 'container'
+                },
+                xAxis: {
+                    type: "category",
+                    categories: ['0','23', '203', '1377', '48096', '212300']
+                },
+                title: {text:"Number of Records Per Second"},
+                
+                series: []
+            };
+
+            data = JSON.parse(data);
+            var names = [];
+            $.each(data, function (i, ligne) {
+                var ind = names.indexOf(ligne.name),
+                    splited = ligne.data.split(','),
+                    x = parseFloat(splited[0]),
+                    y = parseFloat(splited[1]);
+                if (ind == -1) {
+                    ind = names.push(ligne.name) - 1;
+                    options.series.push({
+                        data: [],
+                        name: ligne.name
+                    });
+                } 
+                if(!isNaN(x) && !isNaN(y)){
+                    options.series[ind].data.push([x,y]);    
+                }
+            });
+            
+            console.log(options);
+
+            var chart = new Highcharts.Chart(options);
+
+
+
+     
+        </script>
