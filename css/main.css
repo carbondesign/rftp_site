@@ -410,13 +410,9 @@ text-transform: uppercase;
 
 }
 .gps_ring {
-    border: 3px solid #999;
+    border: 3px solid #fff;
     -webkit-border-radius: 30px;
-    height: 18px;
-    width: 18px;
-    position: absolute;
-    left:20px;
-    top:214px;
+   
     -webkit-animation: pulsate 1s ease-out;
     -webkit-animation-iteration-count: infinite; 
     opacity: 0.0
