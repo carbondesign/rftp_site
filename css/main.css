@@ -352,21 +352,15 @@ text-transform: uppercase;
 /*font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
 }
 
-.technology .brand-name {
-font-weight: 300;
-font-size: 48px;
-}
-.technology .brand-name-subtext{
-  font-size: 22px
-}
-.technology .tech_card{
+
+ .tech_card{
   width: 80%;
   margin: 0 auto;
 }
-.technology .owl-item{
+ .owl-item{
   background-color: #111
 }
-.technology .interview_background{
+.interview_background{
   max-height: 100%;
   position: absolute;
   max-width: 100%;
@@ -375,30 +369,30 @@ font-size: 48px;
   width: auto;
   
 }
-.technology video .wallpaper{
+ video .wallpaper{
   min-height:1000px;
 }
-.technology .scroll-down.page-scroll,
-.technology .wallpaper-media.wallpaper-video{
+ .scroll-down.page-scroll,
+ .wallpaper-media.wallpaper-video{
   display:none;
 }
-.technology .tech_card p{
+ .tech_card p{
   font-size:20px;
   padding-left: 350px;
 }
-.technology .owl-carousel h2{padding-left: 350px;}
-.technology .navbar.navbar-inverse.navbar-fixed-top.navbar-expanded{
+.owl-carousel h2{padding-left: 350px;}
+ .navbar.navbar-inverse.navbar-fixed-top.navbar-expanded{
   background-color: rgba(0, 0, 0, .8);
 
 }
-.technology .about-carousel h3{
+ .about-carousel h3{
   font-size: 18px
 }
-.technology .about-carousel p{
+ .about-carousel p{
   font-size: 14px;
 
 }
-.technology .about-carousel .caption {
+ .about-carousel .caption {
   background-color: #111;
   opacity: .8;
 
