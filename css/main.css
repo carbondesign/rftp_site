@@ -409,18 +409,15 @@ text-transform: uppercase;
   height: 100%;
 
 }
-.gps_ring {
-    border: 3px solid #fff;
-    -webkit-border-radius: 30px;
-   
-    -webkit-animation: pulsate 1s ease-out;
-    -webkit-animation-iteration-count: infinite; 
-    opacity: 0.0
+@-webkit-keyframes bluePulse {
+  from { background-color: #022E67; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: #0C5ABE; -webkit-box-shadow: 0 0 18px #0C5ABE; }
+  to { background-color: #022E67; -webkit-box-shadow: 0 0 9px #333; }
 }
-@-webkit-keyframes pulsate {
-    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
-    50% {opacity: 1.0;}
-    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+a.blue.pulse {
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
 }
 #dashboard{
   background-color: #ddd;
