@@ -415,7 +415,7 @@ text-transform: uppercase;
   to { background-color: #022E67; -webkit-box-shadow: 0 0 9px #333; }
 }
 a.blue.pulse {
-  -webkit-animation-name: greenPulse;
+  -webkit-animation-name: bluePulse;
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
 }
