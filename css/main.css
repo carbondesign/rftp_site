@@ -49,8 +49,8 @@ a:visited { color: #205caa; }
   background-color: white;
 }
 header .brand-name{
-  font-size: 38px;
-  font-weight: 400;
+  font-size: 38px !important;
+  font-weight: 400  !important;
 
 }
 .site-title,
