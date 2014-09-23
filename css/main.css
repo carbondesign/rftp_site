@@ -48,7 +48,11 @@ a:visited { color: #205caa; }
   min-height: 56px;
   background-color: white;
 }
+header .brand-name{
+  font-size: 38px;
+  font-weight: 400;
 
+}
 .site-title,
 .site-title:hover,
 .site-title:visited {
