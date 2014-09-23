@@ -699,8 +699,7 @@ div.storyHeader h1 {
 		<div id="nytg-chartFrame">
 		<![endif]-->  
 <![if !IE]><div id="nytg-chartFrame"><![endif]>
-<h1>  </h1>
-s<div id="nytg-chart"><div class="nytg-navBar">
+<div id="nytg-chart"><div class="nytg-navBar">
 <div id="nytg-search" style="display:none;"></div>
 <ul class="nytg-navigation clearfix">
 <li id="nytg-nav-all">All Transactions</li>
@@ -926,7 +925,7 @@ nytg.Chart = function(){
                         } else if ( c <= 0.25){ return 2;
                         } else { return 3; }
                       },
-    fillColor       : d3.scale.ordinal().domain([-3,-2,-1,0,1,2,3]).range(["#0472c6", "#0472c6","#e84505","#78af19","#78af19", "#fe7a05", "#0472c6"]),
+    fillColor       : d3.scale.ordinal().domain([-3,-2,-1,0,1,2,3]).range(["#003F77", "#003F77","#e84505","#BAC405","#BAC405", "#666", "#003F77"]),
     strokeColor     : d3.scale.ordinal().domain([-3,-2,-1,0,1,2,3]).range(["#333", "#333","#333","#333","#333", "#333", "#333"]),
     getFillColor    : null,
     getStrokeColor  : null,
@@ -1171,14 +1170,14 @@ nytg.Chart = function(){
       this.circle.enter().append("svg:circle")
         .attr("r", function(d) { return 0; } )
         .style("fill", function(d) { return that.getFillColor(d); } )
-        .style("stroke-width", 1)
+        .style("stroke-width", 0)
         .attr('id',function(d){ return 'nytg-circle'+d.sid })
         .style("stroke", function(d){ return that.getStrokeColor(d); })
         .on("mouseover",function(d,i) { 
           var el = d3.select(this)
           var xpos = Number(el.attr('cx'))
           var ypos = (el.attr('cy') - d.radius - 10)
-          el.style("stroke","#000").style("stroke-width",3);
+          el.style("stroke","#000").style("stroke-width",0);
           d3.select("#nytg-tooltip").style('top',ypos+"px").style('left',xpos+"px").style('display','block')
             .classed('nytg-plus', (d.changeCategory > 0))
             .classed('nytg-minus', (d.changeCategory < 0));
@@ -1195,7 +1194,7 @@ nytg.Chart = function(){
           d3.select("#nytg-tooltip .nytg-change").html(pctchngout) })
         .on("mouseout",function(d,i) { 
           d3.select(this)
-          .style("stroke-width",1)
+          .style("stroke-width",0)
           .style("stroke", function(d){ return that.getStrokeColor(d); })
           d3.select("#nytg-tooltip").style('display','none')});
       
