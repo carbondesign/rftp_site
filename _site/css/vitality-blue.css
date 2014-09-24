@@ -282,7 +282,7 @@ header img {
     text-align: center;
 }
 
-header .scroll-down .btn {
+ .scroll-down .btn {
     width: 50px;
     height: 50px;
     padding: 0;
@@ -297,7 +297,7 @@ header .scroll-down .btn {
     transition: all .5s;
 }
 
-header .scroll-down .btn:hover {
+ .scroll-down .btn:hover {
     border-color: rgba(255,255,255,.5);
     outline: 0;
     color: rgba(255,255,255,.5);
