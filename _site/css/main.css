@@ -13,7 +13,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 300;
+  
   background-color: #fdfdfd;
 }
 
@@ -48,7 +48,12 @@ a:visited { color: #205caa; }
   min-height: 56px;
   background-color: white;
 }
+header .brand-name{
+  font-size: 28px !important;
+  font-weight: 400 !important;
+  line-height: 1.2em;
 
+}
 .site-title,
 .site-title:hover,
 .site-title:visited {
@@ -174,7 +179,7 @@ a:visited { color: #205caa; }
   font-size: 42px;
   letter-spacing: -1.75px;
   line-height: 1;
-  font-weight: 300;
+  
 }
 
 .post-header .meta {
@@ -195,7 +200,7 @@ a:visited { color: #205caa; }
 .post-content h5,
 .post-content h6 {
   line-height: 1;
-  font-weight: 300;
+  
   margin: 40px 0 20px;
 }
 
@@ -446,7 +451,7 @@ a.blue.pulse {
 .modal-dialog{width:100% !important; margin:12% 0px;}
 #dashboard{
   padding-top: 0px;
-  height: 830px;
+  height: 1030px;
   overflow: hidden;
   margin: 0px auto;
   width: 960px;

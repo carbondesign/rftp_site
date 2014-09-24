@@ -3,15 +3,15 @@
   <channel>
     <title>FINRA Tech</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://localhost:4000//</link>
-    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Sep 2014 18:14:51 -0400</pubDate>
-    <lastBuildDate>Mon, 22 Sep 2014 18:14:51 -0400</lastBuildDate>
+    <link>http://carbondesign.github.io/rftp_site//</link>
+    <atom:link href="http://carbondesign.github.io/rftp_site//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 24 Sep 2014 14:19:51 -0400</pubDate>
+    <lastBuildDate>Wed, 24 Sep 2014 14:19:51 -0400</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
         <title>Interview - Matt Cardillo of FINRA Technology</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000//images/bio_pic.jpg&quot; /&gt;/&amp;gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;http://carbondesign.github.io/rftp_site//images/bio_pic.jpg&quot; /&gt;/&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; First of all, can you describe what FastOLA is?
 &lt;/p&gt;
@@ -50,8 +50,8 @@
 &lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; We’ll continue to replace components of the legacy platform with the new cloud-based platform.  We are working with Cloudera to develop new capabilities in their OS to support our requirements.  In addition, we’re developing a host of cloud management tools that we intend to release to the community under open source.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
-        <link>http://localhost:4000//jekyll/update/2014/09/09/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000//jekyll/update/2014/09/09/welcome-to-jekyll/</guid>
+        <link>http://carbondesign.github.io/rftp_site//jekyll/update/2014/09/09/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://carbondesign.github.io/rftp_site//jekyll/update/2014/09/09/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
