@@ -1,20 +1,30 @@
 ---
 layout: page
+title:  "technology"
+subtitle: "with Matt Cardillo of FINRA Technology"
+category: technology
 ---
+<div id="filters">
 
-<div class="home">
+<div class="button-group js-radio-button-group" data-filter-group="color" style="height:30px; padding-top:10px">
+      <a class="button is-checked" data-filter="">All</a>
+      <a class="button" data-filter=".Cloud">Cloud</a>
+      <a class="button" data-filter=".Visualizations">Visualization</a>
+      <a class="button" data-filter=".Big">Big Data</a>
+      <a class="button" data-filter=".Science">Data Science</a>
+    </div></div>
+    <div style="position:relative">
+	{% for post in site.categories.event%}
+		<div class="{{post.box}} {{post.tag}}  postbox" style=" no-repeat 0px 0px; min-height:350px; width:28% ">
+			<a style=" background-color:#222; overflow:hidden; display:block  " href="{{site.url}}/events/article">
+			<div style="background:url({{post.img}}) no-repeat #222; ; height:200px; overflow:hidden; "></div>
+			<h3 style=" color:#bbb; font-size:14px; padding:0px 20px 0px">{{post.tag}}</h3>
+			<h2 style="  padding:0px 20px 20px; text-transform:capitalize;line-height:1.2em; font-size:20px; color:white">{{post.title}}</h2>
+			<p>{{content}}</p></a>
+		</div>
 
-  <h1>Media</h1>
+	{% endfor %}
+        
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Interview - Matt Cardillo of FINRA Technology"
+title:  "Conference Article"
 date:   2014-09-09 05:55:49
 categories: event
-img: images/bio_pic.jpg
+img: http://photos4.meetupstatic.com/photos/event/2/9/4/c/highres_220510572.jpeg
+tag: conference
+box: col-md-4
 ---
 
 >

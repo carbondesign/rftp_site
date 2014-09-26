@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Interview - Matt Cardillo of FINRA Technology"
+title:  "MeetUp Artcile"
 date:   2014-09-09 05:55:49
 categories: event
-img: images/bio_pic.jpg
+img: http://www.meetup.com/AngularJS-DC/photos/19917702/#330283442
+tag: meetup
+box: col-md-4
 ---
 
 

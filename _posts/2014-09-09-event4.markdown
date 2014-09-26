@@ -4,6 +4,8 @@ title:  "Interview - Matt Cardillo of FINRA Technology"
 date:   2014-09-09 05:55:49
 categories: event
 img: images/bio_pic.jpg
+box: col-md-4
+tag: 
 ---
 
 
