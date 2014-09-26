@@ -35,6 +35,9 @@ a:visited { color: #205caa; }
   margin: 0 auto;
   zoom: 1;
 }
+.tech_bkg{
+  background: url('../images/os_bkg.png');
+}
 
 
 /* Layout Styles */
@@ -437,6 +440,10 @@ top: 10px;
 color: white;
 opacity: .8;
 }
+#filters a{
+  color:#fff;
+  padding: 5px 0px 5px 20px;
+}
 .technology .cardimage {
   position: absolute;
   background-color: #fff;
@@ -445,10 +452,26 @@ opacity: .8;
   top: 0px;
   overflow: hidden;
 }
+.about-content {
+  padding: 30px;
+  border-radius: 100%;
+  background: #fff;
+  width: 320px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 8px 0px #ccc;
+          box-shadow: 0px 0px 8px 0px #ccc;
+          height: 330px;
+          margin-bottom: 30px;
+
+}
+.page-content h3 {
+  color:#333;
+}
 .technology .cardimage img{
   height:100%;
 
 }
+#interactiveShell{margin-top:-60px;}
 .close:hover{color:#26A7E4;}
 button.close.talent_close{
   top:30px;
@@ -468,7 +491,7 @@ a.blue.pulse {
 .modal-dialog{width:100% !important; margin:12% 0px;}
 #dashboard{
   padding-top: 0px;
-  height: 1030px;
+  height: 810px;
   overflow: hidden;
   margin: 0px auto;
   width: 960px;
@@ -528,6 +551,7 @@ opacity: 1;
     width: -o-calc(50% - 10px);
     width: calc(50% - 10px);
     margin-right: 0;
+
   }
 
   .site-footer .column.footer-col-3 {

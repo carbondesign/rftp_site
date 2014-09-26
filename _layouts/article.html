@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body id="page-top" class="{{page.category}}">
+    	{% if page.url == "/technology/article/" %}
+    <header class="video"> 
+
+    {% include header.html %} 
+   
+ 
+    <div class="overlay"></div>
+    <img class="interview_background" src="{{site.url}}/images/stock-photo-23055516-woman-s-hands-over-writing-a-graph-view-from-the-side.jpg"/></header> 
+
+    <div class="intro-content">
+           
+            <div class="brand-name">{{page.title}}</div>
+            <hr class="colored">
+            <div class="brand-name-subtext">{{page.subtitle}}</div>
+        </div>
+
+        {% endif %}
+    
+     {{ content }}
+    
+   
+
+    {% include footer.html %}
+   
+
+    </body>
+</html>

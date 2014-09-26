@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "Interview - Matt Cardillo of FINRA Technology"
+title:  "Tech Article About Visualization"
 date:   2014-09-09 05:55:49
 categories: tech
-img: images/bio_pic.jpg
+img: http://i.istockimg.com/file_thumbview_approve/28035880/2/stock-photo-28035880-technology.jpg
+box: col-md-4
+tag: "Visualizations"
 ---
 
-<img src="{{site.url}}/{{page.img}}">/>
+
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada leo vitae ultricies venenatis. Aenean ornare velit vitae purus tempus malesuada. Aliquam blandit pharetra nibh. Sed in tincidunt ex. Vestibulum malesuada lectus ornare malesuada finibus. Quisque posuere aliquet nunc, id porta sapien. Nulla condimentum, orci varius mollis volutpat, orci ante varius augue, nec posuere urna quam ac dolor. Donec vehicula urna urna, eu dapibus nisi aliquam tristique. Pellentesque ac tortor consequat, volutpat leo nec, gravida sapien. Praesent luctus leo scelerisque porta pellentesque. Ut pulvinar erat quis fermentum egestas. Ut sed odio libero. Maecenas ut eros vitae odio tincidunt suscipit. Curabitur a enim diam. Morbi facilisis, nibh non semper egestas, tortor augue condimentum tortor, eget ornare augue erat sit amet orci.
 </p><p>

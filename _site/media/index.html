@@ -49,7 +49,7 @@
 </head>
 
 
-    <body id="page-top" class="">
+    <body id="page-top" class="" style="background-color:#666">
 
     
 
@@ -93,9 +93,14 @@
             </nav>
 
  
-    
-     
-     <style type="text/css">
+   
+ 
+    <div class="overlay"></div>
+ 	
+    <section class="container" >
+ 	
+        <div class="page-content row" style="background-color:transparent" id="postcontainer">
+            <style type="text/css">
 .talk-pip--on {
 position: relative;
 top: 118px !important;
@@ -855,9 +860,9 @@ many factors of difference between a slow market day on a high market that is on
   })();
 </script><script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ d.innerText=i; } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }}catch(e){}</script>
 </div>
-    
-         
-    
+        
+        </div>    
+    </section>
    
 
     <footer class="site-footer">
@@ -938,8 +943,47 @@ many factors of difference between a slow market day on a high market that is on
     <script src="http://localhost:4000//js/vitality.js"></script>
 
 
-  
+    <script type="text/javascript" src="../js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript">
+       
 
+        $( function() {
+          // init Isotope
+          var $container = $('#postcontainer').isotope({
+            itemSelector: '.postbox'
+          });
+
+          // store filter for each group
+          var filters = {};
+
+          $('#filters').on( 'click', '.button', function() {
+            var $this = $(this);
+            // get group key
+            var $buttonGroup = $this.parents('.button-group');
+            var filterGroup = $buttonGroup.attr('data-filter-group');
+            // set filter for group
+            filters[ filterGroup ] = $this.attr('data-filter');
+            // combine filters
+            var filterValue = '';
+            for ( var prop in filters ) {
+              filterValue += filters[ prop ];
+            }
+            // set filter for Isotope
+            $container.isotope({ filter: filterValue });
+          });
+
+          // change is-checked class on buttons
+          $('.button-group').each( function( i, buttonGroup ) {
+            var $buttonGroup = $( buttonGroup );
+            $buttonGroup.on( 'click', 'button', function() {
+              $buttonGroup.find('.is-checked').removeClass('is-checked');
+              $( this ).addClass('is-checked');
+            });
+          });
+          
+        });
+
+    </script>
 
     </body>
 </html>

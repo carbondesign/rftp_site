@@ -49,7 +49,7 @@
 </head>
 
 
-    <body id="page-top" class="">
+    <body id="page-top" class="" style="background-color:#666">
 
     
 
@@ -93,9 +93,14 @@
             </nav>
 
  
-    
-     
-     <div class="home">
+   
+ 
+    <div class="overlay"></div>
+ 	
+    <section class="container" >
+ 	
+        <div class="page-content row" style="background-color:transparent" id="postcontainer">
+            <div class="home">
 
   <h1>Media</h1>
 
@@ -103,12 +108,37 @@
     
       <li>
         <span class="post-date">Sep 9, 2014</span>
-        <a class="post-link" href="/tech/2014/09/09/tech4/">Interview - Matt Cardillo of FINRA Technology</a>
+        <a class="post-link" href="/tech/2014/09/09/tech4/">Tech Article About Visualization</a>
       </li>
     
       <li>
         <span class="post-date">Sep 9, 2014</span>
-        <a class="post-link" href="/tech/2014/09/09/tech1/">Tech Article</a>
+        <a class="post-link" href="/tech/2014/09/09/tech3%20-%20Copy/">What is Fastola?</a>
+      </li>
+    
+      <li>
+        <span class="post-date">Sep 9, 2014</span>
+        <a class="post-link" href="/tech/2014/09/09/tech3/">What is Fastola?</a>
+      </li>
+    
+      <li>
+        <span class="post-date">Sep 9, 2014</span>
+        <a class="post-link" href="/tech/2014/09/09/tech2%20-%20Copy/">Tech Article About Data Science</a>
+      </li>
+    
+      <li>
+        <span class="post-date">Sep 9, 2014</span>
+        <a class="post-link" href="/tech/2014/09/09/tech2/">Tech Article About Data Science</a>
+      </li>
+    
+      <li>
+        <span class="post-date">Sep 9, 2014</span>
+        <a class="post-link" href="/tech/2014/09/09/tech1%20-%20Copy/">Tech Article About the Cloud</a>
+      </li>
+    
+      <li>
+        <span class="post-date">Sep 9, 2014</span>
+        <a class="post-link" href="/tech/2014/09/09/tech1/">Tech Article About the Cloud</a>
       </li>
     
       <li>
@@ -157,9 +187,9 @@
 
 </div>
 
-    
-         
-    
+        
+        </div>    
+    </section>
    
 
     <footer class="site-footer">
@@ -240,8 +270,47 @@
     <script src="http://localhost:4000//js/vitality.js"></script>
 
 
-  
+    <script type="text/javascript" src="../js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript">
+       
 
+        $( function() {
+          // init Isotope
+          var $container = $('#postcontainer').isotope({
+            itemSelector: '.postbox'
+          });
+
+          // store filter for each group
+          var filters = {};
+
+          $('#filters').on( 'click', '.button', function() {
+            var $this = $(this);
+            // get group key
+            var $buttonGroup = $this.parents('.button-group');
+            var filterGroup = $buttonGroup.attr('data-filter-group');
+            // set filter for group
+            filters[ filterGroup ] = $this.attr('data-filter');
+            // combine filters
+            var filterValue = '';
+            for ( var prop in filters ) {
+              filterValue += filters[ prop ];
+            }
+            // set filter for Isotope
+            $container.isotope({ filter: filterValue });
+          });
+
+          // change is-checked class on buttons
+          $('.button-group').each( function( i, buttonGroup ) {
+            var $buttonGroup = $( buttonGroup );
+            $buttonGroup.on( 'click', 'button', function() {
+              $buttonGroup.find('.is-checked').removeClass('is-checked');
+              $( this ).addClass('is-checked');
+            });
+          });
+          
+        });
+
+    </script>
 
     </body>
 </html>

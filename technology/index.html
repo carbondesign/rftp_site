@@ -1,15 +1,30 @@
 ---
 layout: page
-title:  "What is FastOLA"
+title:  "technology"
 subtitle: "with Matt Cardillo of FINRA Technology"
 category: technology
 ---
+<div id="filters">
 
-<section class="bg-gray" style="padding-top: 50px">
+<div class="button-group js-radio-button-group" data-filter-group="color" style="height:30px; padding-top:10px">
+      <a class="button is-checked" data-filter="">All</a>
+      <a class="button" data-filter=".Cloud">Cloud</a>
+      <a class="button" data-filter=".Visualizations">Visualization</a>
+      <a class="button" data-filter=".Big">Big Data</a>
+      <a class="button" data-filter=".Science">Data Science</a>
+    </div></div>
+    <div style="position:relative">
+	{% for post in site.categories.tech%}
+		<div class="{{post.box}} {{post.tag}}  postbox" style=" no-repeat 0px 0px; min-height:350px; width:28% ">
+			<a style=" background-color:#222; overflow:hidden; display:block  " href="{{site.url}}/technology/article">
+			<div style="background:url({{post.img}}) no-repeat #222; ; height:200px; overflow:hidden; "></div>
+			<h3 style=" color:#bbb; font-size:14px; padding:0px 20px 0px">{{post.tag}}</h3>
+			<h2 style="  padding:0px 20px 20px; text-transform:capitalize;line-height:1.2em; font-size:20px; color:white">{{post.title}}</h2>
+			<p>{{content}}</p></a>
+		</div>
 
-	{% for post in site.categories[tech] %}
-	<h3>{{post.category}}</h3>
 	{% endfor %}
         
-</section>
 
+
+</div>
