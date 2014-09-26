@@ -41,12 +41,28 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 
 /* Site header */
+h1.tech{
+  text-transform: uppercase;
+font-weight: bold;
+color: #205caa;
+float: left;
+font-size: 30px;
+letter-spacing: 1px;
+padding-top: 2px;
+margin-right: 5px;
+}
+h1.tech span{
+  margin-top: -1px;
+  display: inline-block;
+  margin-left: 2px
 
+}
 .site-header {
   border-top: 5px solid #333;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   background-color: white;
+
 }
 header .brand-name{
   font-size: 28px !important;
@@ -54,6 +70,7 @@ header .brand-name{
   line-height: 1.2em;
 
 }
+.img-centered{float:left;}
 .site-title,
 .site-title:hover,
 .site-title:visited {

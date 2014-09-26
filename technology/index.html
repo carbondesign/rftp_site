@@ -6,7 +6,10 @@ category: technology
 ---
 
 <section class="bg-gray" style="padding-top: 50px">
-	<marquee direction="left" ><strong>Top 5 Stocks for 10/03/2014: </strong>Stock Title One ° Stock Title Tow °  Stock Title Three</marquee>
+
+	{% for post in site.categories[tech] %}
+	<h3>{{post.category}}</h3>
+	{% endfor %}
         
 </section>
 

@@ -3,60 +3,217 @@
   <channel>
     <title>FINRA Tech</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://carbondesign.github.io/rftp_site//</link>
-    <atom:link href="http://carbondesign.github.io/rftp_site//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 24 Sep 2014 14:26:39 -0400</pubDate>
-    <lastBuildDate>Wed, 24 Sep 2014 14:26:39 -0400</lastBuildDate>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 25 Sep 2014 18:15:36 -0400</pubDate>
+    <lastBuildDate>Thu, 25 Sep 2014 18:15:36 -0400</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
         <title>Interview - Matt Cardillo of FINRA Technology</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://carbondesign.github.io/rftp_site//images/bio_pic.jpg&quot; /&gt;/&amp;gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000//images/bio_pic.jpg&quot; /&gt;/&amp;gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; First of all, can you describe what FastOLA is?
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada leo vitae ultricies venenatis. Aenean ornare velit vitae purus tempus malesuada. Aliquam blandit pharetra nibh. Sed in tincidunt ex. Vestibulum malesuada lectus ornare malesuada finibus. Quisque posuere aliquet nunc, id porta sapien. Nulla condimentum, orci varius mollis volutpat, orci ante varius augue, nec posuere urna quam ac dolor. Donec vehicula urna urna, eu dapibus nisi aliquam tristique. Pellentesque ac tortor consequat, volutpat leo nec, gravida sapien. Praesent luctus leo scelerisque porta pellentesque. Ut pulvinar erat quis fermentum egestas. Ut sed odio libero. Maecenas ut eros vitae odio tincidunt suscipit. Curabitur a enim diam. Morbi facilisis, nibh non semper egestas, tortor augue condimentum tortor, eget ornare augue erat sit amet orci.
 &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; FastOLA is a custom application developed by FINRA’s Technology group that our market analysts use to query large amounts of market trade data that we get from NYSE Euronext, NASDAQ, and DirectEdge exchanges to name a few. 
+&lt;p&gt;
+Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et pretium lorem. Maecenas ac purus nulla. Integer tristique nulla porta ipsum mattis pretium. Curabitur quis eros at metus mollis hendrerit ut et odio. Ut sed eros tincidunt, suscipit ex ut, dapibus enim. Curabitur lacinia tellus ut mauris efficitur, tincidunt mollis nisi aliquam. Duis vitae nibh metus. Sed non interdum urna.
 &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; What might a market analyst do with FastOLA?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; A market analyst might use FastOLA to verify compliance with timing requirements, research a customer complaint, or search for patterns of fraudulent behavior. 
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; What does the name FastOLA mean?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; OLA stands for Order Lifecycle Assembly.  We assemble all of the steps in an order —e.g., a stock trade— and provide this data and the ability to analyze it to our market analysts. 
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; And what about the Fast part?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; Fast means just that—the faster our market analysts can analyze this data, the better they can meet our mission to protect investors and maintain the integrity of US markets.
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; How do you make it fast?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; Certainly intelligent application design is critical, but leveraging cloud computing technologies like Elastic MapReduce (EMR) and open source frameworks like HBase and Hadoop are vital to achieving the results we are seeing now.
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; Tell me about the results
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; Just to give you an example, one query that took over 5 hours to run on our legacy platform runs in 11 seconds on the new platform. 
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; Wow, what provides the horsepower for such improvement?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; We partnered with Cloudera to engineer a 60-node cluster of HS1 instances in Amazon’s AWS cloud running Hadoop, HBase, and EMR. We are able to spool up nodes like a thermostat on a wall.
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; 60 nodes is a lot; how much data do you have out there?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; Right now, we have about 3 Petabytes of data in FastOLA, which helps put some context around the 11-second query return I mentioned earlier.
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;t@f:&lt;/strong&gt; What’s next for FastOLA?
-&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;MC:&lt;/strong&gt; We’ll continue to replace components of the legacy platform with the new cloud-based platform.  We are working with Cloudera to develop new capabilities in their OS to support our requirements.  In addition, we’re developing a host of cloud management tools that we intend to release to the community under open source.&lt;/p&gt;
+&lt;p&gt;
+Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
-        <link>http://carbondesign.github.io/rftp_site//jekyll/update/2014/09/09/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://carbondesign.github.io/rftp_site//jekyll/update/2014/09/09/welcome-to-jekyll/</guid>
+        <link>http://localhost:4000//tech/2014/09/09/tech4/</link>
+        <guid isPermaLink="true">http://localhost:4000//tech/2014/09/09/tech4/</guid>
         
         
-        <category>jekyll</category>
+        <category>tech</category>
         
-        <category>update</category>
+      </item>
+    
+      <item>
+        <title>Tech Article</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada leo vitae ultricies venenatis. Aenean ornare velit vitae purus tempus malesuada. Aliquam blandit pharetra nibh. Sed in tincidunt ex. Vestibulum malesuada lectus ornare malesuada finibus. Quisque posuere aliquet nunc, id porta sapien. Nulla condimentum, orci varius mollis volutpat, orci ante varius augue, nec posuere urna quam ac dolor. Donec vehicula urna urna, eu dapibus nisi aliquam tristique. Pellentesque ac tortor consequat, volutpat leo nec, gravida sapien. Praesent luctus leo scelerisque porta pellentesque. Ut pulvinar erat quis fermentum egestas. Ut sed odio libero. Maecenas ut eros vitae odio tincidunt suscipit. Curabitur a enim diam. Morbi facilisis, nibh non semper egestas, tortor augue condimentum tortor, eget ornare augue erat sit amet orci.
+&lt;/p&gt;
+&lt;p&gt;
+Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et pretium lorem. Maecenas ac purus nulla. Integer tristique nulla porta ipsum mattis pretium. Curabitur quis eros at metus mollis hendrerit ut et odio. Ut sed eros tincidunt, suscipit ex ut, dapibus enim. Curabitur lacinia tellus ut mauris efficitur, tincidunt mollis nisi aliquam. Duis vitae nibh metus. Sed non interdum urna.
+&lt;/p&gt;
+&lt;p&gt;
+Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
+        <link>http://localhost:4000//tech/2014/09/09/tech1/</link>
+        <guid isPermaLink="true">http://localhost:4000//tech/2014/09/09/tech1/</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+      <item>
+        <title>Interview - Matt Cardillo of FINRA Technology</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000//images/bio_pic.jpg&quot; /&gt;/&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada leo vitae ultricies venenatis. Aenean ornare velit vitae purus tempus malesuada. Aliquam blandit pharetra nibh. Sed in tincidunt ex. Vestibulum malesuada lectus ornare malesuada finibus. Quisque posuere aliquet nunc, id porta sapien. Nulla condimentum, orci varius mollis volutpat, orci ante varius augue, nec posuere urna quam ac dolor. Donec vehicula urna urna, eu dapibus nisi aliquam tristique. Pellentesque ac tortor consequat, volutpat leo nec, gravida sapien. Praesent luctus leo scelerisque porta pellentesque. Ut pulvinar erat quis fermentum egestas. Ut sed odio libero. Maecenas ut eros vitae odio tincidunt suscipit. Curabitur a enim diam. Morbi facilisis, nibh non semper egestas, tortor augue condimentum tortor, eget ornare augue erat sit amet orci.
+&lt;/p&gt;
+&lt;p&gt;
+Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et pretium lorem. Maecenas ac purus nulla. Integer tristique nulla porta ipsum mattis pretium. Curabitur quis eros at metus mollis hendrerit ut et odio. Ut sed eros tincidunt, suscipit ex ut, dapibus enim. Curabitur lacinia tellus ut mauris efficitur, tincidunt mollis nisi aliquam. Duis vitae nibh metus. Sed non interdum urna.
+&lt;/p&gt;
+&lt;p&gt;
+Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
+        <link>http://localhost:4000//event/2014/09/09/event4/</link>
+        <guid isPermaLink="true">http://localhost:4000//event/2014/09/09/event4/</guid>
+        
+        
+        <category>event</category>
+        
+      </item>
+    
+      <item>
+        <title>Interview - Matt Cardillo of FINRA Technology</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000//images/bio_pic.jpg&quot; /&gt;/&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada leo vitae ultricies venenatis. Aenean ornare velit vitae purus tempus malesuada. Aliquam blandit pharetra nibh. Sed in tincidunt ex. Vestibulum malesuada lectus ornare malesuada finibus. Quisque posuere aliquet nunc, id porta sapien. Nulla condimentum, orci varius mollis volutpat, orci ante varius augue, nec posuere urna quam ac dolor. Donec vehicula urna urna, eu dapibus nisi aliquam tristique. Pellentesque ac tortor consequat, volutpat leo nec, gravida sapien. Praesent luctus leo scelerisque porta pellentesque. Ut pulvinar erat quis fermentum egestas. Ut sed odio libero. Maecenas ut eros vitae odio tincidunt suscipit. Curabitur a enim diam. Morbi facilisis, nibh non semper egestas, tortor augue condimentum tortor, eget ornare augue erat sit amet orci.
+&lt;/p&gt;
+&lt;p&gt;
+Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et pretium lorem. Maecenas ac purus nulla. Integer tristique nulla porta ipsum mattis pretium. Curabitur quis eros at metus mollis hendrerit ut et odio. Ut sed eros tincidunt, suscipit ex ut, dapibus enim. Curabitur lacinia tellus ut mauris efficitur, tincidunt mollis nisi aliquam. Duis vitae nibh metus. Sed non interdum urna.
+&lt;/p&gt;
+&lt;p&gt;
+Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
+        <link>http://localhost:4000//event/2014/09/09/event3/</link>
+        <guid isPermaLink="true">http://localhost:4000//event/2014/09/09/event3/</guid>
+        
+        
+        <category>event</category>
+        
+      </item>
+    
+      <item>
+        <title>Interview - Matt Cardillo of FINRA Technology</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000//images/bio_pic.jpg&quot; /&gt;/&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada leo vitae ultricies venenatis. Aenean ornare velit vitae purus tempus malesuada. Aliquam blandit pharetra nibh. Sed in tincidunt ex. Vestibulum malesuada lectus ornare malesuada finibus. Quisque posuere aliquet nunc, id porta sapien. Nulla condimentum, orci varius mollis volutpat, orci ante varius augue, nec posuere urna quam ac dolor. Donec vehicula urna urna, eu dapibus nisi aliquam tristique. Pellentesque ac tortor consequat, volutpat leo nec, gravida sapien. Praesent luctus leo scelerisque porta pellentesque. Ut pulvinar erat quis fermentum egestas. Ut sed odio libero. Maecenas ut eros vitae odio tincidunt suscipit. Curabitur a enim diam. Morbi facilisis, nibh non semper egestas, tortor augue condimentum tortor, eget ornare augue erat sit amet orci.
+&lt;/p&gt;
+&lt;p&gt;
+Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et pretium lorem. Maecenas ac purus nulla. Integer tristique nulla porta ipsum mattis pretium. Curabitur quis eros at metus mollis hendrerit ut et odio. Ut sed eros tincidunt, suscipit ex ut, dapibus enim. Curabitur lacinia tellus ut mauris efficitur, tincidunt mollis nisi aliquam. Duis vitae nibh metus. Sed non interdum urna.
+&lt;/p&gt;
+&lt;p&gt;
+Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
+        <link>http://localhost:4000//event/2014/09/09/event2/</link>
+        <guid isPermaLink="true">http://localhost:4000//event/2014/09/09/event2/</guid>
+        
+        
+        <category>event</category>
+        
+      </item>
+    
+      <item>
+        <title>Interview - Matt Cardillo of FINRA Technology</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000//images/bio_pic.jpg&quot; /&gt;/&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada leo vitae ultricies venenatis. Aenean ornare velit vitae purus tempus malesuada. Aliquam blandit pharetra nibh. Sed in tincidunt ex. Vestibulum malesuada lectus ornare malesuada finibus. Quisque posuere aliquet nunc, id porta sapien. Nulla condimentum, orci varius mollis volutpat, orci ante varius augue, nec posuere urna quam ac dolor. Donec vehicula urna urna, eu dapibus nisi aliquam tristique. Pellentesque ac tortor consequat, volutpat leo nec, gravida sapien. Praesent luctus leo scelerisque porta pellentesque. Ut pulvinar erat quis fermentum egestas. Ut sed odio libero. Maecenas ut eros vitae odio tincidunt suscipit. Curabitur a enim diam. Morbi facilisis, nibh non semper egestas, tortor augue condimentum tortor, eget ornare augue erat sit amet orci.
+&lt;/p&gt;
+&lt;p&gt;
+Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et pretium lorem. Maecenas ac purus nulla. Integer tristique nulla porta ipsum mattis pretium. Curabitur quis eros at metus mollis hendrerit ut et odio. Ut sed eros tincidunt, suscipit ex ut, dapibus enim. Curabitur lacinia tellus ut mauris efficitur, tincidunt mollis nisi aliquam. Duis vitae nibh metus. Sed non interdum urna.
+&lt;/p&gt;
+&lt;p&gt;
+Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
+        <link>http://localhost:4000//event/2014/09/09/event1/</link>
+        <guid isPermaLink="true">http://localhost:4000//event/2014/09/09/event1/</guid>
+        
+        
+        <category>event</category>
+        
+      </item>
+    
+      <item>
+        <title>Volunteering for the Guide Dog FOundation</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000//images/bio_pic.jpg&quot; /&gt;/&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada leo vitae ultricies venenatis. Aenean ornare velit vitae purus tempus malesuada. Aliquam blandit pharetra nibh. Sed in tincidunt ex. Vestibulum malesuada lectus ornare malesuada finibus. Quisque posuere aliquet nunc, id porta sapien. Nulla condimentum, orci varius mollis volutpat, orci ante varius augue, nec posuere urna quam ac dolor. Donec vehicula urna urna, eu dapibus nisi aliquam tristique. Pellentesque ac tortor consequat, volutpat leo nec, gravida sapien. Praesent luctus leo scelerisque porta pellentesque. Ut pulvinar erat quis fermentum egestas. Ut sed odio libero. Maecenas ut eros vitae odio tincidunt suscipit. Curabitur a enim diam. Morbi facilisis, nibh non semper egestas, tortor augue condimentum tortor, eget ornare augue erat sit amet orci.
+&lt;/p&gt;
+&lt;p&gt;
+Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et pretium lorem. Maecenas ac purus nulla. Integer tristique nulla porta ipsum mattis pretium. Curabitur quis eros at metus mollis hendrerit ut et odio. Ut sed eros tincidunt, suscipit ex ut, dapibus enim. Curabitur lacinia tellus ut mauris efficitur, tincidunt mollis nisi aliquam. Duis vitae nibh metus. Sed non interdum urna.
+&lt;/p&gt;
+&lt;p&gt;
+Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
+        <link>http://localhost:4000//career/2014/09/09/career4/</link>
+        <guid isPermaLink="true">http://localhost:4000//career/2014/09/09/career4/</guid>
+        
+        
+        <category>career</category>
+        
+      </item>
+    
+      <item>
+        <title>Interview - Matt Cardillo of FINRA Technology</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000//images/bio_pic.jpg&quot; /&gt;/&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada leo vitae ultricies venenatis. Aenean ornare velit vitae purus tempus malesuada. Aliquam blandit pharetra nibh. Sed in tincidunt ex. Vestibulum malesuada lectus ornare malesuada finibus. Quisque posuere aliquet nunc, id porta sapien. Nulla condimentum, orci varius mollis volutpat, orci ante varius augue, nec posuere urna quam ac dolor. Donec vehicula urna urna, eu dapibus nisi aliquam tristique. Pellentesque ac tortor consequat, volutpat leo nec, gravida sapien. Praesent luctus leo scelerisque porta pellentesque. Ut pulvinar erat quis fermentum egestas. Ut sed odio libero. Maecenas ut eros vitae odio tincidunt suscipit. Curabitur a enim diam. Morbi facilisis, nibh non semper egestas, tortor augue condimentum tortor, eget ornare augue erat sit amet orci.
+&lt;/p&gt;
+&lt;p&gt;
+Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et pretium lorem. Maecenas ac purus nulla. Integer tristique nulla porta ipsum mattis pretium. Curabitur quis eros at metus mollis hendrerit ut et odio. Ut sed eros tincidunt, suscipit ex ut, dapibus enim. Curabitur lacinia tellus ut mauris efficitur, tincidunt mollis nisi aliquam. Duis vitae nibh metus. Sed non interdum urna.
+&lt;/p&gt;
+&lt;p&gt;
+Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
+        <link>http://localhost:4000//career/2014/09/09/career3/</link>
+        <guid isPermaLink="true">http://localhost:4000//career/2014/09/09/career3/</guid>
+        
+        
+        <category>career</category>
+        
+      </item>
+    
+      <item>
+        <title>Interview - Matt Cardillo of FINRA Technology</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000//images/bio_pic.jpg&quot; /&gt;/&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada leo vitae ultricies venenatis. Aenean ornare velit vitae purus tempus malesuada. Aliquam blandit pharetra nibh. Sed in tincidunt ex. Vestibulum malesuada lectus ornare malesuada finibus. Quisque posuere aliquet nunc, id porta sapien. Nulla condimentum, orci varius mollis volutpat, orci ante varius augue, nec posuere urna quam ac dolor. Donec vehicula urna urna, eu dapibus nisi aliquam tristique. Pellentesque ac tortor consequat, volutpat leo nec, gravida sapien. Praesent luctus leo scelerisque porta pellentesque. Ut pulvinar erat quis fermentum egestas. Ut sed odio libero. Maecenas ut eros vitae odio tincidunt suscipit. Curabitur a enim diam. Morbi facilisis, nibh non semper egestas, tortor augue condimentum tortor, eget ornare augue erat sit amet orci.
+&lt;/p&gt;
+&lt;p&gt;
+Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et pretium lorem. Maecenas ac purus nulla. Integer tristique nulla porta ipsum mattis pretium. Curabitur quis eros at metus mollis hendrerit ut et odio. Ut sed eros tincidunt, suscipit ex ut, dapibus enim. Curabitur lacinia tellus ut mauris efficitur, tincidunt mollis nisi aliquam. Duis vitae nibh metus. Sed non interdum urna.
+&lt;/p&gt;
+&lt;p&gt;
+Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
+        <link>http://localhost:4000//career/2014/09/09/career2/</link>
+        <guid isPermaLink="true">http://localhost:4000//career/2014/09/09/career2/</guid>
+        
+        
+        <category>career</category>
+        
+      </item>
+    
+      <item>
+        <title>Interview - Matt Cardillo of FINRA Technology</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://localhost:4000//images/bio_pic.jpg&quot; /&gt;/&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada leo vitae ultricies venenatis. Aenean ornare velit vitae purus tempus malesuada. Aliquam blandit pharetra nibh. Sed in tincidunt ex. Vestibulum malesuada lectus ornare malesuada finibus. Quisque posuere aliquet nunc, id porta sapien. Nulla condimentum, orci varius mollis volutpat, orci ante varius augue, nec posuere urna quam ac dolor. Donec vehicula urna urna, eu dapibus nisi aliquam tristique. Pellentesque ac tortor consequat, volutpat leo nec, gravida sapien. Praesent luctus leo scelerisque porta pellentesque. Ut pulvinar erat quis fermentum egestas. Ut sed odio libero. Maecenas ut eros vitae odio tincidunt suscipit. Curabitur a enim diam. Morbi facilisis, nibh non semper egestas, tortor augue condimentum tortor, eget ornare augue erat sit amet orci.
+&lt;/p&gt;
+&lt;p&gt;
+Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et pretium lorem. Maecenas ac purus nulla. Integer tristique nulla porta ipsum mattis pretium. Curabitur quis eros at metus mollis hendrerit ut et odio. Ut sed eros tincidunt, suscipit ex ut, dapibus enim. Curabitur lacinia tellus ut mauris efficitur, tincidunt mollis nisi aliquam. Duis vitae nibh metus. Sed non interdum urna.
+&lt;/p&gt;
+&lt;p&gt;
+Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
+        <link>http://localhost:4000//career/2014/09/09/career1/</link>
+        <guid isPermaLink="true">http://localhost:4000//career/2014/09/09/career1/</guid>
+        
+        
+        <category>career</category>
         
       </item>
     
