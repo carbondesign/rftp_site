@@ -49,6 +49,8 @@ $(".portfolio-carousel").owlCarousel({
     touchDrag: false,
     transitionStyle: "fadeUp"
 });
+var owl = $(".portfolio-carousel").data('owlCarousel');
+$('.talent_close').click(function(){owl.goTo(0)});
 
 $(".testimonials-carousel").owlCarousel({
     singleItem: true,
@@ -80,7 +82,6 @@ $('.gallery-link').magnificPopup({
 // Formstone Wallpaper - Video Background Settings
 $("header.video").wallpaper({
     source: {
-       
         mp4: "http://carbondesign.github.io/rftp_site/video/digital_finance.mp4"
     }
 });

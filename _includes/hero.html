@@ -1,15 +1,47 @@
 <!-- Instructions: Set your background image using the URL below. -->
-    <header class="video">
-        <div class="overlay"></div>
-        <div class="intro-content">
-           
-            <div class="brand-name">WE ARE<br>BIG DATA</div>
-            <hr class="colored">
-            <div class="brand-name-subtext"><p style="width: 100%; margin: 20px auto; font-size:22px"> We process 30 billion market events from multiple exchanges and thousands of firms every day – on par with the transaction volumes of Facebook, Twitter, and Visa.
+<header class="video">
+    <div class="overlay"></div>
+    <div class="intro-content">
+     <div class="">
+         <h1>We created the NASDAQ</h1>
+         <hr class="colored">
+         <div class="brand-name-subtext"><p style="width: 100%; margin: 20px auto; font-size:22px;">We created the NASDAQ, the world's first electronic stock exchange – and changed the industry. Technology innovation is in our heritage</p></div>
+     </div>
+     
 
-            </p></div>
-        </div>
-        <div class="scroll-down page-scroll">
-            <a class="btn" href="#about"><i class="fa fa-angle-down"></i></a>
-        </div>
-    </header>
+     <div class="scroll-down page-scroll ">
+        <a class="btn blue pulse" href="#about"><i class="fa fa-angle-down"></i></a>
+    </div>
+</div>
+<style></style>
+<script type="text/javascript">
+    function ShowItems(items, delay) {
+    var remainingItems = items.length;
+    $(items[0]).fadeIn(500)
+        .delay(delay)
+        .fadeOut(500)
+        .promise()
+        .done(function() {
+            items.splice(0, 1);
+            if (items.length > 0)
+            {
+                ShowItems(items, delay);    
+            }            
+    });       
+}
+
+var items = $(".fade_intro").hide();
+
+ShowItems(items, 5000);
+
+</script>
+
+</header>
+
+
+
+
+
+
+
+
