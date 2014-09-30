@@ -7,17 +7,17 @@ title:  "careers"
 
 	<div class="button-group js-radio-button-group" data-filter-group="color" style="height:30px; padding-top:10px">
       <a class="button is-checked" data-filter="">All</a>
-      <a class="button" data-filter=".Cloud">Developer</a>
-      <a class="button" data-filter=".Big">UXUI</a>
-      <a class="button" data-filter=".Science">Guide Dog</a>
+      <a class="button" data-filter=".Developer">Developer</a>
+      <a class="button" data-filter=".UXUI">UXUI</a>
+      <a class="button" data-filter=".Guide">Guide Dog</a>
     </div>
 </div>
 <h1 class="col-md-12" style="color:white">Meet the Team</h1>
 <div style="position:relative; top:60px">
     
 	{% for post in site.categories.career%}
-		<div class="{{post.box}} {{post.tag}}  postbox" style=" no-repeat 0px 0px; min-height:350px; width:28% ">
-			<a style=" background-color:#222; overflow:hidden; display:block; " href="{{site.url}}/technology/article">
+		<div class="{{post.box}} {{post.subtitle}}  postbox" style=" no-repeat 0px 0px; min-height:350px; width:28% ">
+			<a style=" background-color:#222; overflow:hidden; display:block; " href="#">
 			<div style="background:url({{post.img}}) no-repeat #222; ; height:200px; overflow:hidden; background-size:100%  "></div>
 			<h3 style=" color:#bbb; font-size:14px; padding:0px 20px 0px">{{post.subtitle}}</h3>
 			<h2 style="  padding:0px 20px 20px; text-transform:capitalize;line-height:1.2em; font-size:20px; color:white">{{post.title}}</h2>
