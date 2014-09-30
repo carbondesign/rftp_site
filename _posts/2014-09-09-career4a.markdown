@@ -4,7 +4,7 @@ title:  "Interested in joining FINRA?"
 subtitle: click here
 date:   2014-09-09 05:55:49
 categories: career
-img: ../../images/you.jpg
+img: ../images/you.jpg
 box: col-md-4
 ---
 
