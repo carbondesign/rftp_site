@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "YOU"
+title:  Leigh Boone
+subtitle: UIUX designer
 date:   2014-09-09 05:55:49
 categories: career
 img: images/bio_pic.jpg
