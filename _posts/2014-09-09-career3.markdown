@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Leigh Boone
-subtitle: UXUI designer
+title:  "Copper"
+subtitle: "Guide Dog Trainee, Drupal Intern"
 date:   2014-09-09 05:55:49
 categories: career
-img: ../images/leigh.jpg
+img: ../images/copper.jpg
 box: col-md-4
 ---
 
