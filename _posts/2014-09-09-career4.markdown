@@ -4,6 +4,7 @@ title:  Volunteering for the Guide Dog FOundation
 date:   2014-09-09 05:55:49
 categories: career
 img: images/bio_pic.jpg
+box: col-md-4
 ---
 
 

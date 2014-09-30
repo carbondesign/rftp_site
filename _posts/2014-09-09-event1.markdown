@@ -3,8 +3,8 @@ layout: post
 title:  "MeetUp Artcile"
 date:   2014-09-09 05:55:49
 categories: event
-img: http://www.meetup.com/AngularJS-DC/photos/19917702/#330283442
-tag: meetup
+img: http://photos3.meetupstatic.com/photos/event/3/8/a/6/global_202214502.jpeg
+tag: meetups
 box: col-md-4
 ---
 

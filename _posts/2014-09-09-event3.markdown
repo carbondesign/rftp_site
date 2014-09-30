@@ -3,9 +3,9 @@ layout: post
 title:  "Saman Michael Far's Key Note at AWS"
 date:   2014-09-09 05:55:49
 categories: event
-img: http://localhost:4000//images/aws.png
+img: http://carbondesign.github.io/rftp_site/images/aws.png
 box: col-md-4
-tag: 
+tag: conferences
 ---
 
 

@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 26 Sep 2014 14:32:45 -0400</pubDate>
-    <lastBuildDate>Fri, 26 Sep 2014 14:32:45 -0400</lastBuildDate>
+    <pubDate>Tue, 30 Sep 2014 12:48:49 -0400</pubDate>
+    <lastBuildDate>Tue, 30 Sep 2014 12:48:49 -0400</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -157,7 +157,7 @@ Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas 
       </item>
     
       <item>
-        <title>Interview - Matt Cardillo of FINRA Technology</title>
+        <title>Hackathon Article</title>
         <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada leo vitae ultricies venenatis. Aenean ornare velit vitae purus tempus malesuada. Aliquam blandit pharetra nibh. Sed in tincidunt ex. Vestibulum malesuada lectus ornare malesuada finibus. Quisque posuere aliquet nunc, id porta sapien. Nulla condimentum, orci varius mollis volutpat, orci ante varius augue, nec posuere urna quam ac dolor. Donec vehicula urna urna, eu dapibus nisi aliquam tristique. Pellentesque ac tortor consequat, volutpat leo nec, gravida sapien. Praesent luctus leo scelerisque porta pellentesque. Ut pulvinar erat quis fermentum egestas. Ut sed odio libero. Maecenas ut eros vitae odio tincidunt suscipit. Curabitur a enim diam. Morbi facilisis, nibh non semper egestas, tortor augue condimentum tortor, eget ornare augue erat sit amet orci.
 &lt;/p&gt;
 &lt;p&gt;
@@ -169,6 +169,8 @@ Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas 
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
         <link>http://localhost:4000//event/2014/09/09/event4/</link>
         <guid isPermaLink="true">http://localhost:4000//event/2014/09/09/event4/</guid>
+        
+        <category>hackathon</category>
         
         
         <category>event</category>
@@ -188,6 +190,8 @@ Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas 
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
         <link>http://localhost:4000//event/2014/09/09/event3/</link>
         <guid isPermaLink="true">http://localhost:4000//event/2014/09/09/event3/</guid>
+        
+        <category>conferences</category>
         
         
         <category>event</category>
@@ -212,7 +216,7 @@ Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas 
         <link>http://localhost:4000//event/2014/09/09/event2/</link>
         <guid isPermaLink="true">http://localhost:4000//event/2014/09/09/event2/</guid>
         
-        <category>conference</category>
+        <category>conferences</category>
         
         
         <category>event</category>

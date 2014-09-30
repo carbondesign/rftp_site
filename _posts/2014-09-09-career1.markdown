@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Interview - Matt Cardillo of FINRA Technology"
+title:  "Copper"
+subtitle: "Guide Dog Trainee, Drupal Intern"
 date:   2014-09-09 05:55:49
 categories: career
-img: images/bio_pic.jpg
+img: ../images/copper.jpg
+box: col-md-4
 ---
 
 

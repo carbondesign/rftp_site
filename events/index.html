@@ -6,13 +6,14 @@ category: technology
 ---
 <div id="filters">
 
-<div class="button-group js-radio-button-group" data-filter-group="color" style="height:30px; padding-top:10px">
+	<div class="button-group js-radio-button-group" data-filter-group="color" style="height:30px; padding-top:10px">
       <a class="button is-checked" data-filter="">All</a>
-      <a class="button" data-filter=".Cloud">Conferences</a>
-      <a class="button" data-filter=".Visualizations">Meetups</a>
-      <a class="button" data-filter=".Big">Big Data</a>
-      <a class="button" data-filter=".Science">Data Science</a>
-    </div></div>
+      <a class="button" data-filter=".conferences">Conferences</a>
+      <a class="button" data-filter=".meetups">Meetups</a>
+      <a class="button" data-filter=".hackathon">Hackathons</a>
+  
+    </div>
+</div>
     <div style="position:relative">
 	{% for post in site.categories.event%}
 		<div class="{{post.box}} {{post.tag}}  postbox" style=" no-repeat 0px 0px; min-height:350px; width:28% ">

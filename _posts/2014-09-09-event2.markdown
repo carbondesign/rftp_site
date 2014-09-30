@@ -3,8 +3,8 @@ layout: post
 title:  "Conference Article"
 date:   2014-09-09 05:55:49
 categories: event
-img: http://photos4.meetupstatic.com/photos/event/2/9/4/c/highres_220510572.jpeg
-tag: conference
+img: http://photos1.meetupstatic.com/photos/event/2/9/6/a/global_220510602.jpeg
+tag: conferences
 box: col-md-4
 ---
 
