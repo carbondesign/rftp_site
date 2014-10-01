@@ -4,7 +4,7 @@ title:  "Don Bruns"
 subtitle: Director II, Web Services
 date:   2014-09-09 05:55:49
 categories: career
-img: ../images/DOn.jpg
+img: ../images/Don.JPG
 box: col-md-4
 ---
 
