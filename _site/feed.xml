@@ -3,10 +3,10 @@
   <channel>
     <title>FINRA Tech</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://localhost:4000//</link>
-    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 30 Sep 2014 16:02:11 -0400</pubDate>
-    <lastBuildDate>Tue, 30 Sep 2014 16:02:11 -0400</lastBuildDate>
+    <link>http://carbondesign.github.io/rftp_site//</link>
+    <atom:link href="http://carbondesign.github.io/rftp_site//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 01 Oct 2014 14:14:45 -0400</pubDate>
+    <lastBuildDate>Wed, 01 Oct 2014 14:14:45 -0400</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -20,8 +20,8 @@ Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et p
 Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
-        <link>http://localhost:4000//tech/2014/09/09/tech4/</link>
-        <guid isPermaLink="true">http://localhost:4000//tech/2014/09/09/tech4/</guid>
+        <link>http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech4/</link>
+        <guid isPermaLink="true">http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech4/</guid>
         
         <category>Visualizations</category>
         
@@ -41,8 +41,8 @@ Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et p
 Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
-        <link>http://localhost:4000//tech/2014/09/09/tech3%20-%20Copy/</link>
-        <guid isPermaLink="true">http://localhost:4000//tech/2014/09/09/tech3%20-%20Copy/</guid>
+        <link>http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech3%20-%20Copy/</link>
+        <guid isPermaLink="true">http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech3%20-%20Copy/</guid>
         
         <category>Big Data</category>
         
@@ -62,8 +62,8 @@ Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et p
 Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
-        <link>http://localhost:4000//tech/2014/09/09/tech3/</link>
-        <guid isPermaLink="true">http://localhost:4000//tech/2014/09/09/tech3/</guid>
+        <link>http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech3/</link>
+        <guid isPermaLink="true">http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech3/</guid>
         
         <category>Big Data</category>
         
@@ -83,8 +83,8 @@ Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et p
 Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
-        <link>http://localhost:4000//tech/2014/09/09/tech2%20-%20Copy/</link>
-        <guid isPermaLink="true">http://localhost:4000//tech/2014/09/09/tech2%20-%20Copy/</guid>
+        <link>http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech2%20-%20Copy/</link>
+        <guid isPermaLink="true">http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech2%20-%20Copy/</guid>
         
         <category>Data Science</category>
         
@@ -104,8 +104,8 @@ Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et p
 Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
-        <link>http://localhost:4000//tech/2014/09/09/tech2/</link>
-        <guid isPermaLink="true">http://localhost:4000//tech/2014/09/09/tech2/</guid>
+        <link>http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech2/</link>
+        <guid isPermaLink="true">http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech2/</guid>
         
         <category>Data Science</category>
         
@@ -125,8 +125,8 @@ Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et p
 Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
-        <link>http://localhost:4000//tech/2014/09/09/tech1%20-%20Copy/</link>
-        <guid isPermaLink="true">http://localhost:4000//tech/2014/09/09/tech1%20-%20Copy/</guid>
+        <link>http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech1%20-%20Copy/</link>
+        <guid isPermaLink="true">http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech1%20-%20Copy/</guid>
         
         <category>Cloud</category>
         
@@ -146,8 +146,8 @@ Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et p
 Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
-        <link>http://localhost:4000//tech/2014/09/09/tech1/</link>
-        <guid isPermaLink="true">http://localhost:4000//tech/2014/09/09/tech1/</guid>
+        <link>http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech1/</link>
+        <guid isPermaLink="true">http://carbondesign.github.io/rftp_site//tech/2014/09/09/tech1/</guid>
         
         <category>Cloud</category>
         
@@ -167,8 +167,8 @@ Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et p
 Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
-        <link>http://localhost:4000//event/2014/09/09/event4/</link>
-        <guid isPermaLink="true">http://localhost:4000//event/2014/09/09/event4/</guid>
+        <link>http://carbondesign.github.io/rftp_site//event/2014/09/09/event4/</link>
+        <guid isPermaLink="true">http://carbondesign.github.io/rftp_site//event/2014/09/09/event4/</guid>
         
         <category>hackathon</category>
         
@@ -188,8 +188,8 @@ Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et p
 Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
-        <link>http://localhost:4000//event/2014/09/09/event3/</link>
-        <guid isPermaLink="true">http://localhost:4000//event/2014/09/09/event3/</guid>
+        <link>http://carbondesign.github.io/rftp_site//event/2014/09/09/event3/</link>
+        <guid isPermaLink="true">http://carbondesign.github.io/rftp_site//event/2014/09/09/event3/</guid>
         
         <category>conferences</category>
         
@@ -213,8 +213,8 @@ Etiam nec risus erat. Maecenas eget dui vitae tellus convallis blandit. Nam et p
 Mauris nec pharetra tortor, vitae ultricies nibh. Praesent justo lacus, egestas hendrerit nisi et, mattis consequat turpis. Proin dignissim mauris eget risus rutrum, eu tincidunt tellus malesuada. Maecenas augue lacus, fermentum ac mauris vitae, feugiat cursus lectus. Praesent euismod, enim in commodo vestibulum, est orci hendrerit nisi, vel iaculis orci tellus eu diam. In faucibus tempus mi. Integer feugiat lectus nisl, ut varius nisl feugiat id. In neque purus, pharetra fringilla cursus vitae, ornare vitae libero. Phasellus non sem pharetra, viverra risus consectetur, posuere nibh. Nam a tincidunt arcu. Vivamus dictum aliquet elit, et rhoncus ante volutpat a. Aenean nec interdum mauris. Quisque vel eros euismod, euismod tortor eu, lacinia odio. Donec molestie elementum odio, ut fringilla risus lobortis vitae. Nam sit amet pellentesque massa.&lt;/p&gt;
 </description>
         <pubDate>Tue, 09 Sep 2014 01:55:49 -0400</pubDate>
-        <link>http://localhost:4000//event/2014/09/09/event2/</link>
-        <guid isPermaLink="true">http://localhost:4000//event/2014/09/09/event2/</guid>
+        <link>http://carbondesign.github.io/rftp_site//event/2014/09/09/event2/</link>
+        <guid isPermaLink="true">http://carbondesign.github.io/rftp_site//event/2014/09/09/event2/</guid>
         
         <category>conferences</category>
         

@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  Leigh Boone
-subtitle: UXUI designer
+title:  "Don Bruns"
+subtitle: Director II, Web Services
 date:   2014-09-09 05:55:49
 categories: career
-img: ../images/leigh.jpg
+img: ../images/DOn.jpg
 box: col-md-4
 ---
 
